@@ -1,0 +1,60 @@
+#bdo{
+font-family:times 'Times New Roman', Times, serif;
+}
+.jh{
+  font-size:15px;
+  background-color:gray;
+}
+.familia_pelho{
+  float:right;
+  margin-left:5px;
+  height:15%;
+  width:15%;
+
+  
+  
+}
+.familia_pelho figcaption{
+  text-align:center;
+  font-size:10px;
+}
+.familia_pelho img{
+  width:80px;
+  height:80px;
+}
+#bdo p{
+  font-size:13px;
+  text-indent:7px;
+}
+#centro{
+  width:90%;
+  height:65%;
+  margin:auto;
+  margin-left:-5px;
+  background:#F2EDED;
+  padding:20px;
+  margin-right:15px;
+}
+.fig{
+  text-align:center;
+}
+.listas li{
+  font-size:13px;
+}
+.historia,#diferenciais{
+  border-bottom:1px solid;
+}
+.familia_pelho{
+  background:#F2EDED;
+  padding:30px;
+  border:1px solid gray;
+}
+.btn_s a{
+  text-decoration:none;
+}
+.btn_s h3{
+  text-align:center;
+  margin-top:8px;
+  background: lightblue;
+  font-size:24px;
+}
