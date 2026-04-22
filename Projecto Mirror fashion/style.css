@@ -1,3 +1,7 @@
+.logo{
+  height:50px;
+  width:80px;
+}
 #bdo{
 font-family:times 'Times New Roman', Times, serif;
 }
@@ -19,8 +23,8 @@ font-family:times 'Times New Roman', Times, serif;
   font-size:10px;
 }
 .familia_pelho img{
-  width:80px;
-  height:80px;
+  width:100px;
+  height:100px;
 }
 #bdo p{
   font-size:13px;
@@ -44,11 +48,6 @@ font-family:times 'Times New Roman', Times, serif;
 .historia,#diferenciais{
   border-bottom:1px solid;
 }
-.familia_pelho{
-  background:#F2EDED;
-  padding:30px;
-  border:1px solid gray;
-}
 .btn_s a{
   text-decoration:none;
 }
@@ -57,4 +56,50 @@ font-family:times 'Times New Roman', Times, serif;
   margin-top:8px;
   background: lightblue;
   font-size:24px;
+}
+.s{
+  font-size:8px;
+}
+.menu-opcoes li,a{
+  list-style:none;
+}
+#cabecalho .menu-opcoes li{
+  font-size:10px;
+  display:inline;
+  position:relative;
+  left:110px;
+  bottom:50px;
+  
+}
+ .menu-opcoes li a{
+ color: #003366;
+}
+#cabecalho{
+  position:relative;
+ 
+}
+.sacola{
+  float:right;
+  position:relative;
+  bottom:95px;
+  font-size:10px;
+}
+body{
+background: url("../img/busca.png");
+}
+.lupa{
+  position:absolute;
+  left:35%;
+  bottom:50px;
+  width:66%;
+  height:80%;
+  top:40%;
+}
+#cabecalho .busca{
+  position:absolute;
+  right:83%;
+  width:19%;
+  bottom:40%;
+}
+.lupa{
 }
