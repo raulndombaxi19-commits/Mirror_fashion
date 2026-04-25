@@ -61,7 +61,7 @@ font-family:times 'Times New Roman', Times, serif;
   font-size:8px;
 }
 .menu-opcoes li,a{
-  list-style:none;
+  list-style:none !important;
 }
 #cabecalho .menu-opcoes li{
   font-size:10px;
@@ -90,16 +90,32 @@ background: url("../img/busca.png");
 .lupa{
   position:absolute;
   left:35%;
-  bottom:50px;
-  width:66%;
-  height:80%;
-  top:40%;
+  width:70%;
+  height:100%;
+  top:38%;
 }
-#cabecalho .busca{
-  position:absolute;
-  right:83%;
-  width:19%;
-  bottom:40%;
+.menu-opcoes>h2{
+  position:relative;
+  right:38px;
+  bottom:57px;
+  font-size:14px !important;
+  font-weight:normal !important;
+ 
+  
 }
-.lupa{
+.busca{
+ position:absolute;
+ right:250px;
+ top:80px;
+ width:30%;
 }
+.departamentos ul{
+  list-style: none;
+  font-size:15px;
+}
+#menu_departamentos h2{
+  font-weight:normal;
+  font-size:14px;
+  
+}
+
